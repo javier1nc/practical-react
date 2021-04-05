@@ -36,6 +36,7 @@ class Header extends Component {
     );
   }
 }
+// JSON.stringify(this.props.myObj)
 
 class App extends Component {
   add(a, b) {
