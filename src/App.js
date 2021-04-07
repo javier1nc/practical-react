@@ -41,6 +41,13 @@ class App extends Component {
       return (
         <div className="App">
           <Header />
+          <button
+            onClick={() => {
+              this.setState({ whichComponentToShow: "ImageSlider" });
+            }}
+          >
+            show imageslider
+          </button>
         </div>
       );
     }
